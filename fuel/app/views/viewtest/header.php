@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <?php echo Asset::css('test/header.css');?>
+    <?php echo Asset::css('contents/header.css');?>
   </head>
   <body>
     <div class="main">

@@ -1,4 +1,4 @@
-<?php echo Asset::css('test/ordercomplete.css')?>
+<?php echo Asset::css('contents/ordercomplete.css')?>
 
 <div class="message">
     <div class="messagein"><p>注文を完了いたしました</p>

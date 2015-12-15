@@ -1,5 +1,5 @@
-<?php echo Asset::css('test/deliveryselect.css') ?>
-<?php echo Asset::css('test/validationEngine.jquery.css') ?>
+<?php echo Asset::css('contents/deliveryselect.css') ?>
+<?php echo Asset::css('contents/validationEngine.jquery.css') ?>
 
 <div class="cartheading">
     ご注文内容
@@ -153,7 +153,7 @@
 <div class="back">
     <a class="biglink">戻る</a>
 </div>
-<?php echo Asset::js('test/jquery/jquery.js') ?>
-<?php echo Asset::js('test/jquery/jquery.validationEngine.js') ?>
-<?php echo Asset::js('test/jquery/jquery.validationEngine-ja.js') ?>
-<?php echo Asset::js('test/deliveryselect.js')?>
+<?php echo Asset::js('contents/jquery/jquery.js') ?>
+<?php echo Asset::js('contents/jquery/jquery.validationEngine.js') ?>
+<?php echo Asset::js('contents/jquery/jquery.validationEngine-ja.js') ?>
+<?php echo Asset::js('contents/deliveryselect.js')?>

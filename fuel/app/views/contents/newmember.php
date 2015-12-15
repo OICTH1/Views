@@ -1,5 +1,5 @@
-<?php echo Asset::css('test/newmember.css') ?>
-<?php echo Asset::css('test/validationEngine.jquery.css') ?>
+<?php echo Asset::css('contents/newmember.css') ?>
+<?php echo Asset::css('contents/validationEngine.jquery.css') ?>
 
 <div class="formheading">
     新規会員登録
@@ -59,7 +59,7 @@
 <div class="back">
     <a class="biglink">戻る</a>
 </div>
-<?php echo Asset::js('test/jquery/jquery.js') ?>
-<?php echo Asset::js('test/jquery/jquery.validationEngine.js') ?>
-<?php echo Asset::js('test/jquery/jquery.validationEngine-ja.js') ?>
-<?php echo Asset::js('test/newmember.js') ?>
+<?php echo Asset::js('contents/jquery/jquery.js') ?>
+<?php echo Asset::js('contents/jquery/jquery.validationEngine.js') ?>
+<?php echo Asset::js('contents/jquery/jquery.validationEngine-ja.js') ?>
+<?php echo Asset::js('contents/newmember.js') ?>

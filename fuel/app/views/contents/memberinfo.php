@@ -1,4 +1,4 @@
-<?php echo Asset::css('test/memberinfo.css')?>
+<?php echo Asset::css('contents/memberinfo.css')?>
 
 <div class="formheading">
                 登録中のお客様情報
