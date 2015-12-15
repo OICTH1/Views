@@ -35,6 +35,9 @@ body{
     text-align : center;
     box-sizing: border-box;
 }
+.menuheading{
+      margin-top: 40px;
+}
 
 .menuin{
 	float: left;
@@ -46,39 +49,51 @@ body{
 .menuname{
     float: left;
     text-align: center;
-    font-size: 25px;
+    font-size: 27px;
+    font-weight: bold;
     width: 100%;
     padding: 10px;
 }
 
 .menuleft{
 	float: left;
-	width: 50%;
+	width: 40%;
 	height: 85%;
 	padding-left: 50px;
 	box-sizing: border-box;
 }
 .menuleft > img {
-	height: 200px;
-	width: 250px;
+	height: 250px;
+	width: 300px;
 
 }
 .menuright{
 	float: left;
-	width: 50%;
+	width: 60%;
 	height: 85%;
 	box-sizing: border-box;
 }
-.pricezei{
-		font-size: 26px;
+
+.pricelist{
+    font-size: 26px;
+    padding: 5px 0;
 }
 
 .price{
-    font-size: 22px;
+  display: ;
+}
+.price-sml{
+  display: ;
+}
+
+.zei{
+  text-align: left;
+  font-size: 20px;
 }
 
 .description{
 		font-size: 22px;
+    padding: 5px 0;
 }
 /*******メニュー*********/
 /*************サイズ****************/
@@ -100,14 +115,19 @@ body{
 }
 .s,.m,.l{
 	text-align : center;
+  font-size: 30px;
 	float: left;
 	height: 100%;
 	width: 33%;
+  padding: 30px 0;
 	box-sizing: border-box;
 }
 .m{
 	width: 34%;
-
+}
+.s input,.m input,.l input{
+  height: 30px;
+  width: 30px;
 }
 
 /*************サイズ****************/
@@ -149,7 +169,7 @@ body{
 	padding: 20px 0px 20px 50px;
 	width: 26%;
 	height: 100%;
-	background-image: url("../img/cart.png");
+	/*background-image: url("../img/cart.png");*/
 	background-size: contain;
 	box-sizing: border-box;
 }
@@ -160,17 +180,17 @@ body{
 
 .list{
 	float: left;
-    font-size: 25px;
+  font-size: 25px;
 	width: 20%;
-    margin: 8px 40%;
-    border: solid 1px;
+  margin: 8px 40%;
+  border: solid 1px;
 	text-align : center;
 	box-sizing: border-box;
 }
 
 a.biglink{
     display: block;
-    padding: 4px 0px;
+    padding: 10px 0px;
     height: 100%;
     width: 100%;
     box-sizing: border-box;

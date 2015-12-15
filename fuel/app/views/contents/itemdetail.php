@@ -7,12 +7,12 @@
   <div class="menuin">
           <div class="menuname">ソーセージナラベターノ</div>
     <div class="menuleft">
-      <img src="../img/pizza.jpg" alt="pizza">
+      <?php echo Asset::img('contents/pizza1.jpg'); ?>
     </div>
     <div class="menuright">
-              <div class="pricezei">S￥<span>2000</span> M￥<span>3000</span> L￥<span>5000</span></div>
-              <div class="price">S￥<span>2000</span> M￥<span>3000</span> L￥<span>5000</div>
-      <div class="description">ソーセージをふんだんに並べました</div>
+              <div class="pricelist"><div class="price">￥<span>2000</span></div><div class="price-sml">S￥<span>2000</span> M￥<span>3000</span> L￥<span>5000</span></div></div>
+              <div class="zei">(税込)</div>
+      <div class="description">ソーセージをふんだんに並べましたソーセージをふんだんに並べましたソーセージをふんだんに並べましたソーセージをふんだんに並べましたソーセージをふんだんに並べました</div>
     </div>
   </div>
 </div>
@@ -22,17 +22,12 @@
     サイズ
   </div>
   <div class="sizein">
-          <div class="s"><label>					<input type="radio" name="size" value="s">Sサイズ <br>
-              <img src="../img/s.png" height="200" width="200" alt=""></label>
-
-    </div>
-          <div class="m"><label>					<input type="radio" name="size" value="m">Mサイズ <br>
-              <img src="../img/m.png" height="200" width="200" alt=""></label>
-
-    </div>
-          <div class="l"><label>					<input type="radio" name="size" value="l">Lサイズ <br>
-              <img src="../img/l.png" height="200" width="200" alt=""></label>
-    </div>
+          <label><div class="s">					Sサイズ<br><input type="radio" name="size" value="s">
+    </div></label>
+          <label><div class="m">					Mサイズ<br><input type="radio" name="size" value="m">
+    </div></label>
+          <label><div class="l">					Lサイズ<br><input type="radio" name="size" value="l">
+    </div></label>
   </div>
 </div>
 <div class="select">
