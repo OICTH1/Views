@@ -37,7 +37,7 @@ body{
 .list{
     float: left;
     width: 100%;
-    /*padding: 10px;*/
+		background-color: pink;
     box-sizing: border-box;
 }
 
@@ -45,13 +45,12 @@ body{
     float: left;
     border: solid 1px;
     width: 300px;
-    /*padding: 2px;*/
-    margin: 10px;
+    margin: 13.3px;
     box-sizing: border-box;
 }
 .img{
     height: 180px;
-    padding: 0 10px;
+    padding: 0 0px;
 }
 .img > img{
     float: left;
@@ -60,21 +59,30 @@ body{
 }
 .pizzaname{
     font-size: 23px;
+		padding: 0px 5px;
     margin-top: 5px;
 }
 .zei{
-    
+
     font-size: 15px;
     height: 12px;
     padding: 5px;
 }
-.price{
+.pricelist{
     font-size: 18px;
-    height: 18px;
     padding: 5px;
 }
+
+.price{
+	display: block;
+}
+
+.price-sml{
+	display: block;
+}
+
 .description{
-    padding: 5px;
+    padding: 6px;
     height: 55px;
 
 }
@@ -105,7 +113,7 @@ a.biglink:hover{
     font-size: 28px;
     float: left;
     width: 30%;
-    margin: 2% 35% 0% 35%;
+    margin: 3% 35% 2% 35%;
     text-align : center;
     border: solid 1px;
 }
