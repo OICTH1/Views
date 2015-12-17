@@ -1,12 +1,5 @@
+<?php echo Asset::css('contents/ordercheck.css');?>
 
-<head>
-    <meta charset="UTF-8">
-    <title>注文確認</title>
-	<?php echo Asset::css('contents/ordercheck.css');?>
-</head>
-<body>
-<div class="header"></div>
-<div class="contents">
     <div class="cartheading">
         ご注文内容
     </div>
@@ -73,12 +66,12 @@
             </div>
         </div>
     </div>
-    
+
     <div class="deliveryheading">
         配達先
     </div>
     <div class="delivery">
-        <div class="yubin">
+        <div class="postal">
             777-7777
         </div>
         <div class="address">
@@ -94,6 +87,3 @@
     <div class="back">
         <a class="biglink">戻る</a>
     </div>
-</div>
-</body>
-</html>

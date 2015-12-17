@@ -1,27 +1,5 @@
  	<?php echo Asset::css('contents/orderlog.css');?>
-	<?php echo Asset::js('jquery/jquery.js');?>
-        <script>
-            $(function(){
-            $('.log-list-item').click(function() {
-                var $datail = $(this).children('.datail');
-                var $title = $(this).children('.title');
-                if($datail.hasClass('open')) {
-                    $datail.removeClass('open');
-                    $datail.slideUp('slow');
-                    var $a = $title.find('.titleright');
-                    $a.removeClass('closeicon');
-                    $a.addClass('openicon');
-                } else {
-                    $datail.addClass('open');
-                    $datail.slideDown('slow');
-                    var $a = $title.find('.titleright');
-                    $a.removeClass('openicon');
-                    $a.addClass('closeicon');
-                }
-            });
-            });
-        </script>
-        <div class="contents">
+
             <div class="logheading">
                 注文履歴一覧
             </div>
@@ -212,10 +190,11 @@
                         </div>
                     </li>
                 </ul>
-                    
+
                 </div>
             <div class="back">
                 <a class="biglink">戻る</a>
             </div>
-        </div>
 
+<?php echo Asset::js('contents/jquery/jquery.js');?>
+<?php echo Asset::js('contents/orderlog.js')?>
