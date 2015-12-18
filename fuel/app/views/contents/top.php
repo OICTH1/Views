@@ -1,10 +1,7 @@
-<?php echo Asset::css('test/top.css');?>
-        <meta charset="UTF-8">
-        <title>ログイン</title>
-        <link rel="stylesheet" type="text/css" href="../css/top.css">
-    </head>
-    <body>
-        <div class="header"></div>
+<?php echo Asset::css('contents/top.css');?>
+
+        <title>TOP</title>
+
         <div class="contents">
            <div class="top">
                 <div class="topleft">
@@ -44,5 +41,3 @@
             </div>
 
         </div>
-    </body>
-
